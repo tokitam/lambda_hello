@@ -1,0 +1,15 @@
+# CDK
+cdk/node_modules/
+cdk/cdk.out/
+cdk/dist/
+
+# PHP Composer（cdk deploy 時に Docker で自動生成）
+lambda/src/hello_php/vendor/
+lambda/src/hello_php/composer.lock
+
+# Claude Code
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
